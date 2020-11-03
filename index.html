@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+<form>
+    <table>
+        <tr>
+            <th align="left">Qty</th>
+            <th align="left">Product</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td><input id="purchaseCount" type="text" size="2"></td>
+            <td><label for="purchaseCount">Learning jQuery</label></td>
+            <td>$39.99</td>
+            <td><span id="purchaseTotal"></span><br></td>
+        </tr>
+        <tr>
+            <td><input id="donationCount" type="text" size="2"></td>
+            <td><label for="donationCount">jQuery Donation</label></td>
+            <td>$14.99</td>
+            <td><span id="donationTotal"></span></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Grand Total: </td>
+            <td><span id="grandTotal"></span></td>
+        </tr>
+
+    </table>
+</form>
+
+
+</body>
+</html>
